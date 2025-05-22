@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandatory Notification Gate - Demo</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 20px; /* Added margin for smaller screens */
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        p {
+            margin-bottom: 20px;
+            color: #555;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+    <script src="notification.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Notification Gate Demo</h1>
+        <p>This page demonstrates the mandatory notification gate. If notifications are not enabled, a modal will appear, guiding you through the setup process.</p>
+        <p>Once notifications are enabled, the modal will disappear, and you'll be able to see this main content clearly.</p>
+        <p>Try disabling notifications for this site in your browser settings and then reload the page to see the gate in action!</p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Your Awesome App. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
