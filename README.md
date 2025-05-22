@@ -1,3 +1,4 @@
+Check the demo https://khoo2002.github.io/vanilla-js-notification-gatekeeper
 # Mandatory Notification Gate
 
 A lightweight, vanilla JavaScript snippet that enforces mandatory browser notification permissions before allowing users to access page content. It uses a clear, guided modal dialog to manage the permission process, ensuring users enable notifications to proceed.
