@@ -1,4 +1,4 @@
-<script>
+
   // --- SVG Icon Definition ---
   const lockSVGIcon = `<svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="display: inline-block; vertical-align: -2px; margin-right: 4px; opacity: 0.8;"><path fill-rule="evenodd" clip-rule="evenodd" d="M6 0C4.34315 0 3 1.34315 3 3V4H2C1.44772 4 1 4.44772 1 5V11C1 11.5523 1.44772 12 2 12H10C10.5523 12 11 11.5523 11 11V5C11 4.44772 10.5523 4 10 4H9V3C9 1.34315 7.65685 0 6 0ZM4 3C4 1.89543 4.89543 1 6 1C7.10457 1 8 1.89543 8 3V4H4V3ZM2 5V11H10V5H2Z"/><path d="M6 7C5.72386 7 5.5 7.22386 5.5 7.5V8.5C5.5 8.77614 5.72386 9 6 9C6.27614 9 6.5 8.77614 6.5 8.5V7.5C6.5 7.22386 6.27614 7 6 7Z"/></svg>`;
 
@@ -226,4 +226,3 @@
     initializeNotificationGate();
     console.log("Mandatory notification script loaded. Gate active if permission not granted.");
   });
-</script>
